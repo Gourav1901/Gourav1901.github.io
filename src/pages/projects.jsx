@@ -85,8 +85,8 @@ const data = [
     features: ["Array size control ", "Speed Control" ],
     resp: "Independently created: Managed all aspects of the project",
     git: "https://github.com/Gourav1901/Sorting_visualizer",
-    preview: "sortingvisualizer01001.netlify.app/",
-  },
+    preview: "https://sortingvisualizer01001.netlify.app/",
+  }
   // {
   //   id: 4,
   //   title: "Medium Clone",

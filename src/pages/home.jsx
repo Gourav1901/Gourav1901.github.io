@@ -66,7 +66,7 @@ const Home = () => {
               <a href="https://github.com/Gourav1901" target="blank">
                 <Button text={<AiFillGithub />} />
               </a>
-              <a href="linkedin.com/in/gourav-choudhary-635ab4193" target="blank">
+              <a href="https://linkedin.com/in/gourav-choudhary-635ab4193" target="blank">
                 <Button text={<AiFillLinkedin />} />
               </a>
               <a href="mailto:gouravchoudhary1002@gmail.com">

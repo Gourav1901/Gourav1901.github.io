@@ -80,7 +80,7 @@ const About = () => {
                     variants={textAnimate}
                   >
                     <h1>
-                      <span>10+</span>
+                      <span>7+</span>
                     </h1>
                     <h2>Solo Projects</h2>
                   </motion.div>

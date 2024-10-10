@@ -6,7 +6,7 @@
 .nav_menu a {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #111213;
+   color: rgb(4, 79, 48) !important;
 }
 .hamburger {
   /* color: white; */
@@ -18,7 +18,7 @@
 }
 
 .button {
-  position: relative;
+   position: relative;
   overflow: hidden;
   height: 2.5rem;
   padding: 0 1.5rem;
@@ -27,16 +27,24 @@
   background-size: 400%;
   color: #0e0e0e;
  /* border: 1px solid #000; */
- background: linear-gradient(
+ /* background: linear-gradient(
     82.3deg,
     rgba(93, 193, 233, 0.921) 10.8%,
     rgba(88, 103, 238, 0.87) 94.3%
-  );
+  ); */ 
+
+  background-color: rgb(4, 79, 48);
+            border-color: rgb(4, 79, 48);
+            border-radius: 20px;
+            color:white;
+            transition: background-color 1s, border-color 1s, color 1s;
 }
-.button:hover::before {
+.button:hover {
 
-
-  transform: scaleX(1);
+  background-color: rgb(218, 255, 224);
+  border-color: rgb(218, 255, 224);
+  color: rgb(4, 79, 48);
+ 
 }
 .buttonContent {
   position: relative;
@@ -45,7 +53,7 @@
   
 
 }
-.button::before {
+/* .button::before {
   
   content: '';
   position: absolute;
@@ -64,6 +72,6 @@
   transition: all 0.475s;
   
 
-}
+} */
 
 
