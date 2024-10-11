@@ -74,4 +74,21 @@
 
 } */
 
+.show {
+  display: block !important;
+}
 
+.hamburger {
+  background-color: white;
+  cursor: pointer;
+}
+
+.collapse {
+  display: none;
+}
+
+.navbar-toggler-icon {
+  /* background-image: url("path-to-icon.png"); */
+  width: 30px;
+  height: 30px;
+}
