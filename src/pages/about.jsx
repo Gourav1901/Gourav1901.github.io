@@ -163,7 +163,7 @@ const About = () => {
                        "https://drive.google.com/file/d/1Cq2YiJ18DQLYlBqWb7uO5DHYIaiKv1VH/view?usp=sharing"
                      )
                    }
-                   download="Rensi Dudhat-Full Stack Web Developer"
+                   download="Gourav Choudhary-Full Stack Web Developer"
                    href={pdf}
                  >
                    <Button text="Resume" id="resume-button-2" />
