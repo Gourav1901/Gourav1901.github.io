@@ -72,10 +72,10 @@ const data = [
   {
     id: 3,
     title: "Sorting Visualizer",
-    subTitle: "Visual represntstion of how sorting Algorithm works",
+    subTitle: "Visual representstion of how sorting Algorithm works",
     img1: sortingImg,
     img2: sortingImgS,
-    desc: "I developed a sorting algorithm for visual represntation of algorithms",
+    desc: "I developed a sorting algorithm for visual representation of algorithms",
     techUsed: [
       "Html",
       "Css",
