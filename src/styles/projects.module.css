@@ -81,7 +81,8 @@
   width: 3px;
 }
 .inner1::-webkit-scrollbar-thumb {
-  background: rgb(13, 165, 230);
+  /* background: rgb(13, 165, 230); */
+  background: rgb(4, 79, 48);
   border-radius: 20px;
 }
 

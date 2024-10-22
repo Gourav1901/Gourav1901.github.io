@@ -59,7 +59,7 @@
 
 .card:hover  {
   box-shadow: rgba(80, 202, 246, 0.4) 0px 0px 0px 2px, rgba(80, 202, 246, 0.65) 0px 4px 6px -1px, rgba(80, 202, 246, 0.08) 0px 1px 0px inset;
- 
+  
   background: none;
   /* transition: .3s; */
   transform: translateY(-10px);
@@ -70,7 +70,7 @@
   transition: 0.5s;
   font-size: 1.8em;
   /* color: #1b0f0f; */
-  color: #31afe4;
+  color: rgb(4, 79, 48);
   font-weight: 600;
   z-index: 1;
   margin-top: 8px;

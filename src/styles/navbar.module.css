@@ -13,7 +13,8 @@
   background-color: white;
 }
 .span {
-  color: rgb(49, 175, 228);
+  /* color: rgb(49, 175, 228); */
+  color:rgb(4, 79, 48);
   font-size: 1.5rem;
 }
 
