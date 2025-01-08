@@ -15,7 +15,7 @@ body::-webkit-scrollbar{
 }
 body::-webkit-scrollbar-thumb{
   background: #4dbdfa;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
   animation: gradient 15s ease infinite;
   border-radius: 50px;
 }
@@ -49,7 +49,7 @@ html {
   /* font-size: clamp(32px, 10vw, 128px); */
   /* font-weight: inherit; */
   font-size: 3.125rem;
-  color: #2979a3;
+  color:rgb(4, 79, 48);
   text-transform: uppercase;
   /* font-family: "Montserrat"; */
   letter-spacing: 3.2px;
@@ -74,7 +74,8 @@ html {
   /* letter-spacing: 3.2px; */
   /* color: transparent; */
   /* color: #1a1a1a; */
-  color: #09a9ff;
+  /* color: #09a9ff; */
+  color:rgb(14, 197, 121);
   opacity: 20%;
   -webkit-text-stroke: 0.0938rem #e8e6ee2f;
   z-index: 2;
