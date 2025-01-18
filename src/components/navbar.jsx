@@ -90,7 +90,7 @@ export default function Navbar() {
               className="nav-link resume active   me-5 text-info-emphasis"
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1Cq2YiJ18DQLYlBqWb7uO5DHYIaiKv1VH/view?usp=sharing"
+                  "https://drive.google.com/file/d/1STJfRxlcqsqz8ja67I-Jyij1PfkwchRg/view?usp=sharing"
                 );
                 closeMenu(); // Closes menu when the resume link is clicked
               }}

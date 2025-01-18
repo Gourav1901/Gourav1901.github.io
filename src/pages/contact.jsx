@@ -72,7 +72,7 @@ const Contact = () => {
             delay: 0.1,
           }}
         >
-        <a href="mailto:arjundangi907473@gmail.com">
+        <a href="mailto:gouravchoudhary1002@gmail.com">
           <div id="contact-email" className={`${style.card}`}>
             <div className={`${style.icon}`}>
               <AiOutlineMail />

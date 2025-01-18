@@ -79,7 +79,7 @@ const About = () => {
                     variants={textAnimate}
                   >
                     <h1>
-                      <span>10+</span>
+                      <span>7+</span>
                     </h1>
                     <h2>Solo Projects</h2>
                   </motion.div>
@@ -156,14 +156,7 @@ const About = () => {
                 <a
                   className="resume"
                   aria-current="page"
-                  // id="resume-link-2"
-                  // onClick={() =>
-                  //   window.open(
-                  //     "https://drive.google.com/file/d/1bFjFGaZ4Vyu4AZ9ErVE4YVr9dDUjc72I/view?usp=sharing"
-                  //   )
-                  // }
-                  // download="Arjun-Dangi-Resume"
-                  // href={pdf}
+                  
                 >
                   <Button text="Resume" id="resume-button-2" />
                 </a>
@@ -177,4 +170,3 @@ const About = () => {
 };
 
 export default About;
-// https://drive.google.com/file/d/13xxj9DMgK6f80ft1GDMZatM5koyu8E8V/view?usp=sharing

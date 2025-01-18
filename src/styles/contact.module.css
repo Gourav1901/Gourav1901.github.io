@@ -64,10 +64,10 @@ a {
   justify-content: center;
   flex-direction: column;
 }
-.desc h5 {
+/* .desc h5 {
 }
 .desc p {
-}
+} */
 
 .card::before {
   content: "";
