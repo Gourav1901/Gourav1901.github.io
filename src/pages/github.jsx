@@ -47,7 +47,7 @@ const Github = () => {
             >
               <img
                 id="github-top-langs"
-                src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gourav1901&layout=donut"
+                src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gourav1901&layout=donut&title_color=044F30"
                 alt=""
               />
             </motion.div>
@@ -66,8 +66,10 @@ const Github = () => {
             >
               <img
                 id="github-stats-card"
-                src="https://github-readme-stats.vercel.app/api?username=Gourav1901&show_icons=true&locale=en"
-                alt=""
+                // src="https://github-readme-stats.vercel.app/api?username=Gourav1901&show_icons=true&locale=en"
+                // alt=""
+                src="https://github-readme-stats.vercel.app/api?username=Gourav1901&theme=transparent&hide_border=true&show_icons=true&locale=en&title_color=044F30&text_color=white&icon_color=044F30"
+                
               />
             </motion.div>
           </div>
@@ -83,8 +85,8 @@ const Github = () => {
             transition={{ duration: 1 }}
           >
             <img
-              src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Gourav1901&theme=2077"
-              alt=""
+               src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Gourav1901&theme=transparent&title_color=044F30&text_color=fbb400&icon_color=044F30&bg_color=044F30"
+  alt="GitHub Stats"
             />
           </motion.div>
         </div>
@@ -92,8 +94,9 @@ const Github = () => {
           {/* streak card */}
           <img
             id="github-streak-stats"
-            src="https://github-readme-streak-stats.herokuapp.com/?user=Gourav1901&theme=tokyonight_duo&hide_border=true&background=DD272700"
+            src="https://github-readme-streak-stats.herokuapp.com/?user=Gourav1901&theme=tokyonight_duo&hide_border=true&background=DD272700title_color=044F30"
             alt=""
+            // src="https://github-readme-streak-stats.herokuapp.com/?user=Vijendra2244&theme=transparent&hide_border=true&title_color=white&text_color=white&sideNums=white&sideLabels=fbb400&ring=fbb400&fire=white&currStreakLabel=fbb400&currStreakNum=white"
           />
         </div>
         <div>

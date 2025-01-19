@@ -11,6 +11,7 @@
 a {
   text-decoration: none;
   color: rgb(0, 0, 0);
+  
 }
 .container {
   color: rgb(15, 14, 14);
@@ -47,7 +48,8 @@ a {
 }
 .icon {
   background-color: #1a1a1a;
-  color: #4dbdfa;
+  /* color:  rgb(4, 79, 48); */
+  color:white;
   height: 80px;
   width: 80px;
   display: flex;
@@ -57,7 +59,8 @@ a {
   border-radius: 50%;
 }
 .desc {
-  color: #111010;
+  /* color: #111010; */
+  color: rgb(4, 79, 48);
   /* border: 1px solid #000; */
   display: flex;
   align-items: center;
@@ -76,8 +79,8 @@ a {
   bottom: 0;
   width: 100%;
   height: 5px;
-  background: linear-gradient(-45deg, #09a9ffdd 0%, #9379e198 100%);
-
+  /* background: linear-gradient(-45deg, #09a9ffdd 0%, #9379e198 100%); */
+  background: linear-gradient(315deg, #FEE9D1 0%,  #FEE9D1 74%);
   /* background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%); */
   z-index: -1;
   transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);
@@ -89,16 +92,18 @@ a {
 
 .card:hover {
   box-shadow: none;
+  /* outline: 2px solid #030000; */
 }
 .card:hover .icon {
-  color: #212121;
-  background: #e8e8e8;
+  color: white;
+  background:  rgb(4, 79, 48);
+  /* outline: 2px solid #030000; */
 }
 
 .card .icon:hover {
-  outline: 2px solid #e8e8e8;
-  background: transparent;
-  color: #e8e8e8;
+  outline: 2px solid #030000;
+  background: rgb(4, 79, 48);
+  color: white;
 }
 
 .card .icon:active {
