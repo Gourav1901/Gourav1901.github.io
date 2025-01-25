@@ -10,6 +10,7 @@ import Skills from './pages/skills';
 import { useSelector } from 'react-redux';
 import style from "./app.module.css"
 import Tools from './pages/tools';
+import ScrollToTop from './components/scrollToTop';
 function App() {
   const [isH1Visible, setIsH1Visible] = useState(true);
  
@@ -24,6 +25,7 @@ function App() {
       <Projects />
       <Github />
       <Contact/>
+      <ScrollToTop />
     </>
   );
 }
